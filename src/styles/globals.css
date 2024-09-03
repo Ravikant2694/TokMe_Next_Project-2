@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  ---background: rgb(255, 44, 115);
+  --orange: #ff654c;
+  --marginB: 10px;
+}
+
+.bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.mb-3 {
+  margin-bottom: var(--marginB) !important;
+}
+
+.text-orange {
+  color: var(--orange);
+}
+
+/* @media screen and (max-width: 768px) { */
+
+.welcome-wrapper {
+  background-color: #fffaf1;
+  height: 100vh;
+  justify-content: center;
+}
+
+.card-wrapper {
+  text-align: center;
+  margin-top: 0px;
+  padding: 0px 20px;
+  width: 100%;
+}
+
+.Welcome {
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+}
+
+.paragraph {
+  color: rgba(152, 148, 148, 0.77);
+  padding: 10px;
+  margin: 0;
+}
+
+.signin {
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+/* 
+.checkbox {
+  margin-left: 0;
+  justify-content: start;
+} */
+
+
+
+/* } */
